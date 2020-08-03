@@ -11,9 +11,9 @@
 5.	Comparing lookback sizes for Model A’s Low + Close 
 
 
-1) Introduction to Models
+## 1) Introduction to Models
 
-TIME SERIES TRAINING DATA:
+### TIME SERIES TRAINING DATA:
 SPY is an Exchange-traded fund (ETF) that reflects the performance of the S&P 500 Index. 
 
 The S&P 500 acts as major benchmarks of the U.S. equity market and indicates the financial health and stability of the economy. It is composed of five hundred selected stocks trading in the U.S., spanning over 20 separate industry groupings.
@@ -24,7 +24,7 @@ Uses 4 separate models, each trained on a specific type of stock price. For inst
 MODEL B:
 After this was submitted on 5/8, we realized we may have misunderstood the instructions, so we trained a new model that takes in all 5 time series (including volume). This new model is trained on ALL data up to 5/7 and uses lookback of 100. Its predictions are given in Results B and outputs all 5 types (open, high, low, close, vol). As shown in our reports, Results B were closer to the actual data.
 
-2) Model Architecture
+### 2) Model Architecture
 
 For all models, we trained using the Adam optimizer, with mean squared error as Loss and using MSE as evaluation metric. Validation data (split using 10% of training data) was initially used to select hyperparameters, but was later not used when we decided that the original model using 50 units in 4 LSTM layers with a final fully connected dense layer worked well. 
 
@@ -85,7 +85,7 @@ Non-trainable params: 0
 _________________________________________________________________
 
 
-3) Raw Output of Actual vs Model Prices
+### 3) Raw Output of Actual vs Model Prices
 
 
 ACTUAL
