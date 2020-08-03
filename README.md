@@ -1,9 +1,9 @@
-CS 677 Final Project: LSTMs on SPY Data
+# CS 677 Final Project: LSTMs on SPY Data
 
-Rahul Basu and Michael Lan
+## Rahul Basu and Michael Lan
 
 
-TABLE OF CONTENTS
+### TABLE OF CONTENTS
 1.	Introduction to Models
 2.	Model Architecture
 3.	Raw Output of Actual vs Model Prices
